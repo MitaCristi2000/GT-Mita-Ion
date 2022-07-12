@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" href="../images/GT Mita Ion.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script src="../js/lightbox.js"></script>
+</head>
+
+<body>
+    <div id="menu-btn" onclick="menu()">
+        <i id="hamburger" class="fas fa-bars"></i>
+        <i id="close" class="fas fa-times hidden"></i>
+    </div>
+
+    <navbar id="side-menu">
+        <div id="menu-logo">
+            <img src="../images/wheat (2).png">
+        </div>
+        <a href="../index.html#despre" onclick="menu()">Despre noi</a>
+        <a href="../index.html#merite" onclick="menu()">Merite</a>
+        <a href="../index.html#galerie" onclick="menu()">Galerie</a>
+        <a href="informaţii.html" onclick="menu()">Informaţii</a>
+        <a href="obiective.html" onclick="menu()">Obiective</a>
+        <a href="contacte.html" onclick="menu()">Contacte</a>
+
+
+    </navbar>
+
+    <main id="main">
+        <section id="contacte">
+            <h1 class="centered">Contacte</h1>
+
+            <a href="../index.html" class="link-home">
+                <i class="fas fa-arrow-left"></i>
+                Pagina Principală
+            </a>
+
+           
+            <div class="row">
+                <div class="col-50">
+                    <h1 class="centered">Contacte</h1>
+                    <div>
+                        <img src="../images/telephone-call (1).png">
+                        <b>Telefon: </b>
+                        <span>+373 69 264 726; </span>
+                        <span>+373 69 143 038</span>
+                    </div>
+                    <div>
+                        <img src="../images/map.png">
+                        <b>Adresa: </b>
+                        <span>s. Albinețul Vechi, r. Fălești</span>
+                    </div>
+                    <div>
+                        <img src="../images/gmail.png">
+                        <b>Email: </b>
+                        <span>Cristi.mita1@mail.ru</span>
+                    </div>
+                    <div>
+                        <b>Cod fiscal: </b>
+                        <span>33088576</span>
+                    </div>
+
+                    <div>
+                        <b>TVA: </b>
+                        <span>5700494</span>
+                    </div>
+                    <span>AGRNMD2X789</span>
+                    <br />
+                    <span>MD97AG000000022511678714</span>
+                    <div class="formular-container">
+                        <form id="formular">
+                            <h3>Lasă un mesaj</h3>
+                            <input type="text" id="nume" placeholder="Nume" required>
+                            <br />
+                            <input type="text" id="email" placeholder="Email" required>
+                            <br />
+                            <textarea id="mesaj" rows="4" placeholder="Mesaj" required></textarea>
+                            <br />
+                            <input onclick="send()" type="button" id="transmite" value="Transmite">
+                        </form>
+                    </div>
+                    <br />
+
+                </div>
+                <br />
+                <br />
+                <br />
+                <br />
+                <div class="col-50">
+                    <h1 class="centered">Ne aflăm aici</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21540.39739467151!2d27.617761942955624!3d47.55709267947642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cb3fc386a23e4d%3A0x62977b31f3de8941!2sAlbine%C5%A3ul%20Vechi%2C%20Moldova!5e0!3m2!1sro!2s!4v1644856843283!5m2!1sro!2s" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+            </div>
+        </section>
+
+        <footer>
+            <div class="titlu-footer">
+                GT "Mîță Ion"
+            </div>
+            <div class="centered">
+                <a href="https://www.facebook.com/Cristi.Mita" target="_blank">
+                    <img src="../images/fb.png" />
+                </a>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
